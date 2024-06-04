@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1853D85321761B9200030F8B /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1853D85221761B9200030F8B /* AdView.swift */; };
+		186DF8A1217162C300CC55EC /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DF8A0217162C300CC55EC /* Homepage.swift */; };
+		186DF8A4217163A900CC55EC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DF8A3217163A900CC55EC /* Profile.swift */; };
+		187B8F432164DE5E00362682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B8F422164DE5E00362682 /* AppDelegate.swift */; };
+		187B8F452164DE5E00362682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B8F442164DE5E00362682 /* ViewController.swift */; };
+		187B8F482164DE5E00362682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187B8F462164DE5E00362682 /* Main.storyboard */; };
+		187B8F4A2164DE7100362682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187B8F492164DE7100362682 /* Assets.xcassets */; };
+		187B8F4D2164DE7100362682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187B8F4B2164DE7100362682 /* LaunchScreen.storyboard */; };
+		187B8F582164DE7100362682 /* FlogItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B8F572164DE7100362682 /* FlogItTests.swift */; };
+		187B8F632164DE7100362682 /* FlogItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B8F622164DE7100362682 /* FlogItUITests.swift */; };
+		189E5F4B2169431200C558ED /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E5F4A2169431200C558ED /* CardView.swift */; };
+		189E5F4E2169BDA800C558ED /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E5F4D2169BDA800C558ED /* Login.swift */; };
+		189E5F512169C3AF00C558ED /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E5F502169C3AF00C558ED /* Constant.swift */; };
+		189E5F532169FD6500C558ED /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E5F522169FD6500C558ED /* Reachability.swift */; };
+		18A192562173EEAB005D737D /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A192552173EEAB005D737D /* Signup.swift */; };
+		18D185E5218D89500044025B /* AddNewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D185E4218D89500044025B /* AddNewItemView.swift */; };
+		18FB15DB218411A800C10619 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB15DA218411A800C10619 /* LandingPage.swift */; };
+		18FB15DF21841E3100C10619 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB15DE21841E3100C10619 /* Category.swift */; };
+		18FB15E121841F5500C10619 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB15E021841F5500C10619 /* Product.swift */; };
+		E60C5CF6221CE00D004AB605 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60C5CF5221CE00D004AB605 /* Thread.swift */; };
+		E60C5CF8221CE432004AB605 /* ThreadCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60C5CF7221CE432004AB605 /* ThreadCollectionView.swift */; };
+		E6119A1221F5919E00B5D945 /* MyAdInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6119A1021F5919D00B5D945 /* MyAdInfo.swift */; };
+		E6119A1321F5919E00B5D945 /* MyAdInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6119A1121F5919D00B5D945 /* MyAdInfo.xib */; };
+		E637507A21B7B39A00C2335B /* Terms.swift in Sources */ = {isa = PBXBuildFile; fileRef = E637507921B7B39A00C2335B /* Terms.swift */; };
+		E63EE76B2200024200EBE17D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63EE76A2200024200EBE17D /* Message.swift */; };
+		E6606DA22217821800C5729B /* CardMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6606DA12217821700C5729B /* CardMessage.swift */; };
+		E673955B21B22928005CDEF4 /* Profle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673955A21B22928005CDEF4 /* Profle.swift */; };
+		E67BA97622071C5000ADD35D /* CardAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67BA97522071C4E00ADD35D /* CardAds.swift */; };
+		E6890DCB21FD4A41007960DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6890DCA21FD4A40007960DB /* GoogleService-Info.plist */; };
+		E695C29321FC031F0028738B /* SearchCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E695C29221FC03100028738B /* SearchCollectionView.swift */; };
+		E695C29521FC1D090028738B /* OneToOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E695C29421FC1D090028738B /* OneToOne.swift */; };
+		E695C29721FC2B630028738B /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E695C29621FC2B630028738B /* Chat.swift */; };
+		E6A76FBC21AE5A5600BC1ABE /* ProductCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A76FBB21AE5A5500BC1ABE /* ProductCollectionView.swift */; };
+		E6B8B73B21CDD3A000B555FC /* ProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B8B73921CDD3A000B555FC /* ProfileEditView.swift */; };
+		E6B8B73C21CDD3A000B555FC /* ProfileEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6B8B73A21CDD3A000B555FC /* ProfileEditView.xib */; };
+		E6C9DE6521BDEB5A00D2D354 /* MyAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C9DE6421BDEB5A00D2D354 /* MyAd.swift */; };
+		E6F76D2D21E1E80500F2C212 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F76D2C21E1E80500F2C212 /* SearchView.swift */; };
+		EF0B24EE52619E3F1A02EB84 /* Pods_FlogIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F8ABAC8943E635D356BB1B /* Pods_FlogIt.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187B8F542164DE7100362682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187B8F372164DE5D00362682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187B8F3E2164DE5E00362682;
+			remoteInfo = FlogIt;
+		};
+		187B8F5F2164DE7100362682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187B8F372164DE5D00362682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187B8F3E2164DE5E00362682;
+			remoteInfo = FlogIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1853D85221761B9200030F8B /* AdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
+		186DF8A0217162C300CC55EC /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		186DF8A3217163A900CC55EC /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		187B8F3F2164DE5E00362682 /* FlogIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlogIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187B8F422164DE5E00362682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187B8F442164DE5E00362682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		187B8F472164DE5E00362682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187B8F492164DE7100362682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187B8F4C2164DE7100362682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187B8F4E2164DE7100362682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187B8F532164DE7100362682 /* FlogItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlogItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187B8F572164DE7100362682 /* FlogItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlogItTests.swift; sourceTree = "<group>"; };
+		187B8F592164DE7100362682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187B8F5E2164DE7100362682 /* FlogItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlogItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187B8F622164DE7100362682 /* FlogItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlogItUITests.swift; sourceTree = "<group>"; };
+		187B8F642164DE7100362682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189E5F4A2169431200C558ED /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		189E5F4D2169BDA800C558ED /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		189E5F502169C3AF00C558ED /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		189E5F522169FD6500C558ED /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		18A192552173EEAB005D737D /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		18D185E4218D89500044025B /* AddNewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemView.swift; sourceTree = "<group>"; };
+		18FB15DA218411A800C10619 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		18FB15DE21841E3100C10619 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		18FB15E021841F5500C10619 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		22F8ABAC8943E635D356BB1B /* Pods_FlogIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlogIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D1343C685DF9D9C994D664 /* Pods-FlogIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlogIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlogIt/Pods-FlogIt.debug.xcconfig"; sourceTree = "<group>"; };
+		E60C5CF5221CE00D004AB605 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
+		E60C5CF7221CE432004AB605 /* ThreadCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCollectionView.swift; sourceTree = "<group>"; };
+		E6119A1021F5919D00B5D945 /* MyAdInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdInfo.swift; sourceTree = "<group>"; };
+		E6119A1121F5919D00B5D945 /* MyAdInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyAdInfo.xib; sourceTree = "<group>"; };
+		E637507921B7B39A00C2335B /* Terms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terms.swift; sourceTree = "<group>"; };
+		E63EE76A2200024200EBE17D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E6606DA12217821700C5729B /* CardMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMessage.swift; sourceTree = "<group>"; };
+		E673955A21B22928005CDEF4 /* Profle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profle.swift; sourceTree = "<group>"; };
+		E67BA97522071C4E00ADD35D /* CardAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAds.swift; sourceTree = "<group>"; };
+		E6888C01223506FB00142BCF /* FlogIt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlogIt.entitlements; sourceTree = "<group>"; };
+		E6890DCA21FD4A40007960DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E695C29221FC03100028738B /* SearchCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionView.swift; sourceTree = "<group>"; };
+		E695C29421FC1D090028738B /* OneToOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneToOne.swift; sourceTree = "<group>"; };
+		E695C29621FC2B630028738B /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		E6A76FBB21AE5A5500BC1ABE /* ProductCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionView.swift; sourceTree = "<group>"; };
+		E6B8B73921CDD3A000B555FC /* ProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditView.swift; sourceTree = "<group>"; };
+		E6B8B73A21CDD3A000B555FC /* ProfileEditView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileEditView.xib; sourceTree = "<group>"; };
+		E6C9DE6421BDEB5A00D2D354 /* MyAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAd.swift; sourceTree = "<group>"; };
+		E6F76D2C21E1E80500F2C212 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		EA6C67C779093F011CF1BA48 /* Pods-FlogIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlogIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlogIt/Pods-FlogIt.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187B8F3C2164DE5E00362682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0B24EE52619E3F1A02EB84 /* Pods_FlogIt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187B8F502164DE7100362682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187B8F5B2164DE7100362682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186DF8A22171638A00CC55EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				186DF8A3217163A900CC55EC /* Profile.swift */,
+				18FB15E021841F5500C10619 /* Product.swift */,
+				18FB15DE21841E3100C10619 /* Category.swift */,
+				E63EE76A2200024200EBE17D /* Message.swift */,
+				E60C5CF5221CE00D004AB605 /* Thread.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		187B8F362164DE5D00362682 = {
+			isa = PBXGroup;
+			children = (
+				187B8F412164DE5E00362682 /* FlogIt */,
+				187B8F562164DE7100362682 /* FlogItTests */,
+				187B8F612164DE7100362682 /* FlogItUITests */,
+				187B8F402164DE5E00362682 /* Products */,
+				82C9AA51DC77D51699AA4520 /* Pods */,
+				B2BACE97349CAB1B318F5ADA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		187B8F402164DE5E00362682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187B8F3F2164DE5E00362682 /* FlogIt.app */,
+				187B8F532164DE7100362682 /* FlogItTests.xctest */,
+				187B8F5E2164DE7100362682 /* FlogItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187B8F412164DE5E00362682 /* FlogIt */ = {
+			isa = PBXGroup;
+			children = (
+				E6888C01223506FB00142BCF /* FlogIt.entitlements */,
+				186DF8A22171638A00CC55EC /* Models */,
+				189E5F4F2169C39400C558ED /* Ini */,
+				189E5F4C2169BBC500C558ED /* Controllers */,
+				187B8F422164DE5E00362682 /* AppDelegate.swift */,
+				189E5F4A2169431200C558ED /* CardView.swift */,
+				E6606DA12217821700C5729B /* CardMessage.swift */,
+				187B8F442164DE5E00362682 /* ViewController.swift */,
+				E67BA97522071C4E00ADD35D /* CardAds.swift */,
+				187B8F462164DE5E00362682 /* Main.storyboard */,
+				187B8F492164DE7100362682 /* Assets.xcassets */,
+				187B8F4B2164DE7100362682 /* LaunchScreen.storyboard */,
+				187B8F4E2164DE7100362682 /* Info.plist */,
+				E6890DCA21FD4A40007960DB /* GoogleService-Info.plist */,
+			);
+			path = FlogIt;
+			sourceTree = "<group>";
+		};
+		187B8F562164DE7100362682 /* FlogItTests */ = {
+			isa = PBXGroup;
+			children = (
+				187B8F572164DE7100362682 /* FlogItTests.swift */,
+				187B8F592164DE7100362682 /* Info.plist */,
+			);
+			path = FlogItTests;
+			sourceTree = "<group>";
+		};
+		187B8F612164DE7100362682 /* FlogItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187B8F622164DE7100362682 /* FlogItUITests.swift */,
+				187B8F642164DE7100362682 /* Info.plist */,
+			);
+			path = FlogItUITests;
+			sourceTree = "<group>";
+		};
+		189E5F4C2169BBC500C558ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18CC9CC32189DB010079ED11 /* Cell */,
+				189E5F4D2169BDA800C558ED /* Login.swift */,
+				186DF8A0217162C300CC55EC /* Homepage.swift */,
+				18A192552173EEAB005D737D /* Signup.swift */,
+				1853D85221761B9200030F8B /* AdView.swift */,
+				18FB15DA218411A800C10619 /* LandingPage.swift */,
+				18D185E4218D89500044025B /* AddNewItemView.swift */,
+				E673955A21B22928005CDEF4 /* Profle.swift */,
+				E637507921B7B39A00C2335B /* Terms.swift */,
+				E6B8B73921CDD3A000B555FC /* ProfileEditView.swift */,
+				E6B8B73A21CDD3A000B555FC /* ProfileEditView.xib */,
+				E6F76D2C21E1E80500F2C212 /* SearchView.swift */,
+				E6119A1021F5919D00B5D945 /* MyAdInfo.swift */,
+				E6119A1121F5919D00B5D945 /* MyAdInfo.xib */,
+				E695C29421FC1D090028738B /* OneToOne.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		189E5F4F2169C39400C558ED /* Ini */ = {
+			isa = PBXGroup;
+			children = (
+				189E5F502169C3AF00C558ED /* Constant.swift */,
+				189E5F522169FD6500C558ED /* Reachability.swift */,
+			);
+			path = Ini;
+			sourceTree = "<group>";
+		};
+		18CC9CC32189DB010079ED11 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E6A76FBB21AE5A5500BC1ABE /* ProductCollectionView.swift */,
+				E695C29221FC03100028738B /* SearchCollectionView.swift */,
+				E60C5CF7221CE432004AB605 /* ThreadCollectionView.swift */,
+				E695C29621FC2B630028738B /* Chat.swift */,
+				E6C9DE6421BDEB5A00D2D354 /* MyAd.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		82C9AA51DC77D51699AA4520 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D1343C685DF9D9C994D664 /* Pods-FlogIt.debug.xcconfig */,
+				EA6C67C779093F011CF1BA48 /* Pods-FlogIt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2BACE97349CAB1B318F5ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22F8ABAC8943E635D356BB1B /* Pods_FlogIt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187B8F3E2164DE5E00362682 /* FlogIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187B8F672164DE7100362682 /* Build configuration list for PBXNativeTarget "FlogIt" */;
+			buildPhases = (
+				F3CFAA03A8BFA29C226C0062 /* [CP] Check Pods Manifest.lock */,
+				187B8F3B2164DE5E00362682 /* Sources */,
+				187B8F3C2164DE5E00362682 /* Frameworks */,
+				187B8F3D2164DE5E00362682 /* Resources */,
+				19C7C98C995948877F5D3826 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlogIt;
+			productName = FlogIt;
+			productReference = 187B8F3F2164DE5E00362682 /* FlogIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187B8F522164DE7100362682 /* FlogItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187B8F6A2164DE7100362682 /* Build configuration list for PBXNativeTarget "FlogItTests" */;
+			buildPhases = (
+				187B8F4F2164DE7100362682 /* Sources */,
+				187B8F502164DE7100362682 /* Frameworks */,
+				187B8F512164DE7100362682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187B8F552164DE7100362682 /* PBXTargetDependency */,
+			);
+			name = FlogItTests;
+			productName = FlogItTests;
+			productReference = 187B8F532164DE7100362682 /* FlogItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187B8F5D2164DE7100362682 /* FlogItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187B8F6D2164DE7100362682 /* Build configuration list for PBXNativeTarget "FlogItUITests" */;
+			buildPhases = (
+				187B8F5A2164DE7100362682 /* Sources */,
+				187B8F5B2164DE7100362682 /* Frameworks */,
+				187B8F5C2164DE7100362682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187B8F602164DE7100362682 /* PBXTargetDependency */,
+			);
+			name = FlogItUITests;
+			productName = FlogItUITests;
+			productReference = 187B8F5E2164DE7100362682 /* FlogItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187B8F372164DE5D00362682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = wizag;
+				TargetAttributes = {
+					187B8F3E2164DE5E00362682 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					187B8F522164DE7100362682 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 187B8F3E2164DE5E00362682;
+					};
+					187B8F5D2164DE7100362682 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 187B8F3E2164DE5E00362682;
+					};
+				};
+			};
+			buildConfigurationList = 187B8F3A2164DE5D00362682 /* Build configuration list for PBXProject "FlogIt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187B8F362164DE5D00362682;
+			productRefGroup = 187B8F402164DE5E00362682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187B8F3E2164DE5E00362682 /* FlogIt */,
+				187B8F522164DE7100362682 /* FlogItTests */,
+				187B8F5D2164DE7100362682 /* FlogItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187B8F3D2164DE5E00362682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B8F4D2164DE7100362682 /* LaunchScreen.storyboard in Resources */,
+				187B8F4A2164DE7100362682 /* Assets.xcassets in Resources */,
+				E6B8B73C21CDD3A000B555FC /* ProfileEditView.xib in Resources */,
+				187B8F482164DE5E00362682 /* Main.storyboard in Resources */,
+				E6119A1321F5919E00B5D945 /* MyAdInfo.xib in Resources */,
+				E6890DCB21FD4A41007960DB /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187B8F512164DE7100362682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187B8F5C2164DE7100362682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19C7C98C995948877F5D3826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlogIt/Pods-FlogIt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageLoader/ImageLoader.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LocationPicker/LocationPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHEXColors/SwiftHEXColors.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageLoader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHEXColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlogIt/Pods-FlogIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3CFAA03A8BFA29C226C0062 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlogIt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187B8F3B2164DE5E00362682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E695C29721FC2B630028738B /* Chat.swift in Sources */,
+				E6F76D2D21E1E80500F2C212 /* SearchView.swift in Sources */,
+				187B8F452164DE5E00362682 /* ViewController.swift in Sources */,
+				E60C5CF8221CE432004AB605 /* ThreadCollectionView.swift in Sources */,
+				189E5F4B2169431200C558ED /* CardView.swift in Sources */,
+				189E5F532169FD6500C558ED /* Reachability.swift in Sources */,
+				E637507A21B7B39A00C2335B /* Terms.swift in Sources */,
+				189E5F512169C3AF00C558ED /* Constant.swift in Sources */,
+				E6606DA22217821800C5729B /* CardMessage.swift in Sources */,
+				E63EE76B2200024200EBE17D /* Message.swift in Sources */,
+				187B8F432164DE5E00362682 /* AppDelegate.swift in Sources */,
+				1853D85321761B9200030F8B /* AdView.swift in Sources */,
+				E67BA97622071C5000ADD35D /* CardAds.swift in Sources */,
+				18A192562173EEAB005D737D /* Signup.swift in Sources */,
+				E6119A1221F5919E00B5D945 /* MyAdInfo.swift in Sources */,
+				E6C9DE6521BDEB5A00D2D354 /* MyAd.swift in Sources */,
+				18FB15DB218411A800C10619 /* LandingPage.swift in Sources */,
+				E695C29321FC031F0028738B /* SearchCollectionView.swift in Sources */,
+				189E5F4E2169BDA800C558ED /* Login.swift in Sources */,
+				186DF8A4217163A900CC55EC /* Profile.swift in Sources */,
+				E60C5CF6221CE00D004AB605 /* Thread.swift in Sources */,
+				18D185E5218D89500044025B /* AddNewItemView.swift in Sources */,
+				186DF8A1217162C300CC55EC /* Homepage.swift in Sources */,
+				E6B8B73B21CDD3A000B555FC /* ProfileEditView.swift in Sources */,
+				18FB15DF21841E3100C10619 /* Category.swift in Sources */,
+				E695C29521FC1D090028738B /* OneToOne.swift in Sources */,
+				E6A76FBC21AE5A5600BC1ABE /* ProductCollectionView.swift in Sources */,
+				18FB15E121841F5500C10619 /* Product.swift in Sources */,
+				E673955B21B22928005CDEF4 /* Profle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187B8F4F2164DE7100362682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B8F582164DE7100362682 /* FlogItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187B8F5A2164DE7100362682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B8F632164DE7100362682 /* FlogItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187B8F552164DE7100362682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187B8F3E2164DE5E00362682 /* FlogIt */;
+			targetProxy = 187B8F542164DE7100362682 /* PBXContainerItemProxy */;
+		};
+		187B8F602164DE7100362682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187B8F3E2164DE5E00362682 /* FlogIt */;
+			targetProxy = 187B8F5F2164DE7100362682 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187B8F462164DE5E00362682 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187B8F472164DE5E00362682 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187B8F4B2164DE7100362682 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187B8F4C2164DE7100362682 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187B8F652164DE7100362682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		187B8F662164DE7100362682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187B8F682164DE7100362682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D1343C685DF9D9C994D664 /* Pods-FlogIt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlogIt/FlogIt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37RPDATL7Y;
+				INFOPLIST_FILE = FlogIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flogit.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187B8F692164DE7100362682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6C67C779093F011CF1BA48 /* Pods-FlogIt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlogIt/FlogIt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37RPDATL7Y;
+				INFOPLIST_FILE = FlogIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flogit.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		187B8F6B2164DE7100362682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlogItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizag.FlogItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlogIt.app/FlogIt";
+			};
+			name = Debug;
+		};
+		187B8F6C2164DE7100362682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlogItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizag.FlogItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlogIt.app/FlogIt";
+			};
+			name = Release;
+		};
+		187B8F6E2164DE7100362682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlogItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizag.FlogItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlogIt;
+			};
+			name = Debug;
+		};
+		187B8F6F2164DE7100362682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlogItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wizag.FlogItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlogIt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187B8F3A2164DE5D00362682 /* Build configuration list for PBXProject "FlogIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B8F652164DE7100362682 /* Debug */,
+				187B8F662164DE7100362682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187B8F672164DE7100362682 /* Build configuration list for PBXNativeTarget "FlogIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B8F682164DE7100362682 /* Debug */,
+				187B8F692164DE7100362682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187B8F6A2164DE7100362682 /* Build configuration list for PBXNativeTarget "FlogItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B8F6B2164DE7100362682 /* Debug */,
+				187B8F6C2164DE7100362682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187B8F6D2164DE7100362682 /* Build configuration list for PBXNativeTarget "FlogItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B8F6E2164DE7100362682 /* Debug */,
+				187B8F6F2164DE7100362682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187B8F372164DE5D00362682 /* Project object */;
+}

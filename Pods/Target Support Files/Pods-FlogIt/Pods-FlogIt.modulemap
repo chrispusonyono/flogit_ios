@@ -1,0 +1,6 @@
+framework module Pods_FlogIt {
+  umbrella header "Pods-FlogIt-umbrella.h"
+
+  export *
+  module * { export * }
+}
